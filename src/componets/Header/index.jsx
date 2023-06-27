@@ -22,7 +22,7 @@ export const Header = () => {
               <box-icon
                 type="solid"
                 name="home"
-                size="40px"
+                size="30px"
                 animation="tada-hover"
               ></box-icon>
             </Link>
@@ -33,7 +33,7 @@ export const Header = () => {
             <box-icon
               type="solid"
               name="user-x"
-              size="50px"
+              size="40px"
               animation="tada-hover"
             ></box-icon>
             </Link>
@@ -42,7 +42,7 @@ export const Header = () => {
             <box-icon
               type="solid"
               name="cart-alt"
-              size="40px"
+              size="30px"
               animation="tada-hover"
             ></box-icon>
             <span className="item-total">{cart.length}</span>

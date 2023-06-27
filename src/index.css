@@ -155,6 +155,7 @@ visibility: visible;
   cursor: pointer;
   transform: all 300ms ease-in-out;
   margin: 3 rem 0 0 2rem;
+  
 }
 .cart-close box-icon:hover{
   fill: crimson
@@ -469,6 +470,10 @@ font-size: 20px;
 .footer-text{
   font-size: 1.5rem;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  
   text-align: center;
+}
+.derechos-de-autor{
+  margin-bottom: 20px;
 }
