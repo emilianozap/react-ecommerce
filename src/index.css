@@ -279,6 +279,7 @@ visibility: visible;
   font-size: 30px;
  }
   .productos{
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,15 +287,16 @@ visibility: visible;
   align-content: center;
  
  }
- .producto{
-
+ .productos .producto{
+  max-width:  80%;
   text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: auto;
-  
+  margin-left: 30px;
  }
+
+ .producto .img{
+  width: 80%;
+}
  .producto .agregar{
   max-width: 200px;
   font-size: 0.9rem;
@@ -305,6 +307,15 @@ visibility: visible;
   margin-bottom: 10px;
   border: none;
 }
+.redes-sociales{
+ 
+  max-width: 80%;
+ 
+}
+.maps{
+  max-width: 80%;
+}
+
 }
 
 /*-------- hero--------- */
@@ -359,7 +370,7 @@ color: black;
   border: 6px solid #08a05c55;
 }
 .producto img{
-  width: 310px;
+  width: 90%;
   
 }
 .caracteristicas{
