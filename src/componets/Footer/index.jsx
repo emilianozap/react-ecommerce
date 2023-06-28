@@ -13,14 +13,14 @@ export const Footer = () => {
           <div className="redes">
             <box-icon
               type="logo"
-              name="whatsapp"
+              name="WhatsApp"
               size="100px"
               color="white"
               animation="tada"
             ></box-icon>
             <box-icon
               type="logo"
-              name="instagram"
+              name="Instagram"
               size="100px"
               color="white"
               animation="tada"

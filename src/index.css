@@ -6,7 +6,11 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -14,7 +18,7 @@ code {
 }
 .App{
   max-width: 1550px;
-  width: 100%;
+
   min-height: 100vh;
   margin: 0 auto;
   box-shadow:  0 5px 6px #08a05ca4 ;
@@ -243,6 +247,10 @@ visibility: visible;
   border: none;
 }
 
+.hero{
+  width: 100%;
+}
+
 
 /* ---------media-------- */
 @media only screen and (max-width: 1000px){
@@ -417,6 +425,8 @@ font-size: 20px;
 /* -------footer------------- */
 
 .footer{
+  width: 100%;
+  max-width: 1550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -426,6 +436,7 @@ font-size: 20px;
   
 }
 .contactos{
+  width: 100%;
   padding: 5rem 2rem;
   display: flex;
   flex-wrap: wrap;
