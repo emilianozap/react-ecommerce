@@ -13,22 +13,22 @@ export const Footer = () => {
           <div className="redes">
             <box-icon
               type="logo"
-              name="WhatsApp"
-              size="100px"
+              name="whatsapp"
+              size="80px"
               color="white"
               animation="tada"
             ></box-icon>
             <box-icon
               type="logo"
-              name="Instagram"
-              size="100px"
+              name="instagram"
+              size="80px"
               color="white"
               animation="tada"
             ></box-icon>
             <box-icon
               type="logo"
               name="facebook"
-              size="100px"
+              size="80px"
               color="white"
               animation="tada"
             ></box-icon>
